@@ -1,0 +1,83 @@
+body {
+  background-color: #FFFFFF;
+  color: #343434;
+}
+
+.container {
+  max-width: 900px;
+}
+
+/*Navigation Bar*/
+.top-navigation {
+  display: flex;
+  align-items: center;
+  background-color: #dfa41b;
+}
+
+.top-navigation ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #FFFFFF;
+}
+
+.top-navigation ul li:hover {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+  border-radius: 10px;
+}
+
+.top-navigation ul li a {
+  text-decoration: none;
+  color: #F2F8F8;
+}
+
+.nav-logout { cursor: pointer; }
+
+/*Login*/
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.users {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.user {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #d9de00;
+  margin: 15px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+.login .user{
+  cursor: pointer;
+}
+
+/*Dashboard*/
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-group button{
+  margin: 10px;
+}
+.btn-group .active{
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+/*New question*/
+.user form div {
+  margin: 10px;
+}
